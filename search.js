@@ -60,5 +60,3 @@ function updateLoadMoreButton(totalPages) {
     loadMoreButton.style.display = 'none';
   }
 }
-
-}
