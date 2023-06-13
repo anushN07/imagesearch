@@ -1,5 +1,4 @@
-
- body {
+body {
   background: linear-gradient(to bottom, #f4f4f4, #dcdcdc);
   font-family: Arial, sans-serif;
 }
@@ -22,6 +21,7 @@ h1 {
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   animation: neonGlow 1.5s infinite alternate;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00e6e6, 0 0 70px #00e6e6, 0 0 80px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6;
 }
 
 @keyframes neonGlow {
@@ -39,6 +39,7 @@ h1 {
   margin-bottom: 20px;
   animation: slideInUp 1s ease;
 }
+
 
 @keyframes slideInUp {
   0% {
@@ -152,7 +153,3 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
