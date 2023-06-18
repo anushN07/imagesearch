@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="image-search">
+    <h1>Image Search Engine</h1>
+    <form id="search-form">
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for images">
+        <button id="search-button">Search</button>
+      </div>
+    </form>
+    <div id="image-results"></div>
+    <button id="load-more-button" style="display: none;">Load More</button>
+    <p id="error-message" class="error-message">Invalid query. Please enter a valid search term.</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
