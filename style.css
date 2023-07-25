@@ -1,6 +1,6 @@
 body {
-  background-color: White;
-  font-family: Arial, sans-serif;
+ background-color: lightblue;
+ 
 }
 
 .container {
@@ -17,6 +17,7 @@ h1 {
   margin-top: 0;
   color: #fff;
   font-size: 28px;
+  font-weight:bold;
   padding: 20px;
   background: pink;
   border-radius: 4px;
