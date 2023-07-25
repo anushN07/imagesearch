@@ -65,12 +65,56 @@
         border-radius: 0;
         background-color: transparent;
         transition: border-color 0.3s ease;
+       /* Animation */
+    animation: text-typing 2s ease infinite;
       }
+@keyframes text-typing {
+    0% {
+      text-indent: 0;
+    }
+    25% {
+      text-indent: 5px;
+    }
+    50% {
+      text-indent: 10px;
+    }
+    75% {
+      text-indent: 15px;
+    }
+    100% {
+      text-indent: 0;
+    }
+  }
 
       #search-input:focus {
         outline: none;
         border-color: pink;
+       /* Animation */
+    animation: text-typing-focus 2s ease infinite;
+  
       }
+@keyframes text-typing-focus {
+    0% {
+      color: #000;
+      text-indent: 0;
+    }
+    25% {
+      color: pink;
+      text-indent: 5px;
+    }
+    50% {
+      color: blue;
+      text-indent: 10px;
+    }
+    75% {
+      color: green;
+      text-indent: 15px;
+    }
+    100% {
+      color: #000;
+      text-indent: 0;
+    }
+  }
 
       #search-button {
         padding: 10px 20px;
