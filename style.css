@@ -64,7 +64,7 @@ h1 {
  color:#000;
   border-bottom: 2px solid #ddd;
   border-radius: 0;
-  background-color: transparent;
+  background-color: #333;
   transition: border-color 0.3s ease;
 }
 
